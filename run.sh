@@ -1,1 +1,1 @@
-docker run --rm -it vim	
+docker run --rm -it vim	vim 
