@@ -1,1 +1,1 @@
-docker build . -t vim
+docker build . -t vim-syntastic-docker

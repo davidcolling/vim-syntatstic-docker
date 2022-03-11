@@ -8,3 +8,4 @@ RUN echo "call plug#begin('~/.vim/plugged')" >> ~/.vimrc
 RUN echo "Plug 'vim-syntastic/syntastic'" >> ~/.vimrc
 RUN echo "call plug#end()" >> ~/.vimrc
 RUN vim +PlugInstall +qall
+WORKDIR /root
